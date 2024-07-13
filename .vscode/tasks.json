@@ -9,12 +9,14 @@
         "--module-path",
         "lib",
         "--add-modules",
-        "javafx.controls,javafx.fxml",
-        "-cp",
-        "lib/sqlite-jdbc-3.46.0.0.jar",
+        "javafx.controls,javafx.fxml,pdfbox",
         "-d",
         "bin",
-        "src/main/java/*.java"
+        "../src/main/java/module-info.java",
+        "../src/main/java/com/example/resumebuilder/Main.java",
+        "../src/main/java/com/example/resumebuilder/ResumeBuilder.java",
+        "../src/main/java/com/example/resumebuilder/DatabaseManager.java",
+        "../src/main/java/com/example/resumebuilder/PDFGenerator.java"
       ],
       "group": {
         "kind": "build",

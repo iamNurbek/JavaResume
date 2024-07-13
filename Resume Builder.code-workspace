@@ -1,11 +1,8 @@
 {
-	"folders": [
-		{
-			"path": "../Resume Builder"
-		},
-		{
-			"path": "C:/Users/21njo/Downloads/pdfbox-app-3.0.2"
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "../Resume-Builder"
+    }
+  ],
+  "settings": {}
 }

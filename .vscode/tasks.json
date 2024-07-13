@@ -7,16 +7,16 @@
       "command": "javac",
       "args": [
         "--module-path",
-        "lib",
+        "D:/Class 36/MOD 3/404 - Java/Final Project/resume-builder/lib",
         "--add-modules",
-        "javafx.controls,javafx.fxml,pdfbox",
+        "javafx.controls,javafx.fxml,org.apache.pdfbox",
         "-d",
-        "bin",
-        "../src/main/java/module-info.java",
-        "../src/main/java/com/example/resumebuilder/Main.java",
-        "../src/main/java/com/example/resumebuilder/ResumeBuilder.java",
-        "../src/main/java/com/example/resumebuilder/DatabaseManager.java",
-        "../src/main/java/com/example/resumebuilder/PDFGenerator.java"
+        "D:/Class 36/MOD 3/404 - Java/Final Project/resume-builder/bin",
+        "D:/Class 36/MOD 3/404 - Java/Final Project/resume-builder/src/main/java/com/module-info.java",
+        "D:/Class 36/MOD 3/404 - Java/Final Project/resume-builder/src/main/java/com/example/resumebuilder/Main.java",
+        "D:/Class 36/MOD 3/404 - Java/Final Project/resume-builder/src/main/java/com/example/resumebuilder/ResumeBuilder.java",
+        "D:/Class 36/MOD 3/404 - Java/Final Project/resume-builder/src/main/java/com/example/resumebuilder/DatabaseManager.java",
+        "D:/Class 36/MOD 3/404 - Java/Final Project/resume-builder/src/main/java/com/example/resumebuilder/PDFGenerator.java"
       ],
       "group": {
         "kind": "build",

@@ -30,7 +30,6 @@ public class PDFGenerator {
             contentStream.showText("Experience: " + experience);
             contentStream.endText();
             contentStream.close();
-
             document.save("Resume.pdf");
         } catch (IOException e) {
             e.printStackTrace();

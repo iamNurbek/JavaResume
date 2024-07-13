@@ -9,7 +9,6 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 public class ResumeBuilder extends Application {
-
     @Override
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Resume Builder");
